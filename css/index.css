@@ -1,0 +1,392 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "IRANSansX";
+}
+@font-face {
+  font-family: IRANSansX;
+  src: url(/Fonts/IRANSansXExtraBold.ttf) format("ttf");
+  src: url("/Fonts/IRANSansXRegular.ttf") format("ttf");
+}
+body {
+  background: #e5e5e5;
+  font-family: "IRANSansX";
+}
+:root {
+  --clrR: #dc0836;
+}
+:root {
+  --clrG: #535e79;
+}
+.TeamName {
+  height: 60px;
+  width: 74px;
+  position: absolute;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #333132;
+  margin: 2px 150px 20px 1217px;
+  transition: all ease 0.7s;
+}
+.TeamName:hover {
+text-shadow: 5px 5px 15px black;
+}
+.btn1-call {
+  width: 134px;
+  height: 42px;
+  background: var(--clrG);
+  position: absolute;
+  border-radius: 6px;
+  margin: 20px 1158px 53px 150px;
+  position: relative;
+}
+.call {
+  position: absolute;
+  width: 490px;
+  height: 104px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #fdfdfd;
+  margin: 10px 9px 11px 40px;
+  font-weight: bold;
+}
+.call-vector {
+  height: 18px;
+  width: 18px;
+  position: absolute;
+  margin: 12px 104px 12px 12px;
+}
+.call-vector2 {
+  height: 8px;
+  width: 8px;
+  margin: 9px 104px 22px 22px;
+  position: absolute;
+}
+header .li1 {
+  position: absolute;
+  width: 80px;
+  height: 21px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333132;
+  left: 396px;
+  top: 40px;
+  list-style-type: none;
+  text-decoration: underline;
+}
+header .ContactUs {
+  position: absolute;
+  height: 18px;
+  width: 16px;
+  margin-top: -15px;
+  margin-left: 474px;
+  margin-right: 950px;
+  font-size: 54px;
+}
+header .ContactUs2 {
+  height: 5px;
+  width: 5px;
+  position: absolute;
+  border: 1.5px solid #333132;
+  border-radius: 5px;
+  margin-top: 26px;
+  margin-right: 955.5px;
+  margin-left: 479.5px;
+}
+header .AboutUs {
+  height: 18px;
+  width: 18px;
+  position: absolute;
+  color: #333132;
+  margin-top: 20px;
+  margin-left: 609px;
+  margin-right: 813px;
+}
+header .AboutUs2 {
+  position: absolute;
+  height: 10px;
+  width: 7px;
+  color: #333132;
+  left: 39.67%;
+  right: 41.67%;
+  top: -1px;
+}
+.li3 i {
+  height: 18px;
+  width: 18px;
+  color: #333132;
+  margin-left: 10px;
+}
+.box1 {
+  height: 7px;
+  width: 7px;
+  border: 1.5px solid black;
+  position: absolute;
+  border-radius: 10px;
+  margin-top: -20px;
+  margin-left: 80px;
+}
+.box2 {
+  height: 7px;
+  width: 7px;
+  border: 1.5px solid #333132;
+  position: absolute;
+  border-radius: 10px;
+  margin-top: -20px;
+  margin-left: 90px;
+}
+.box3 {
+  height: 7px;
+  width: 7px;
+  border: 1.5px solid #333132;
+  position: absolute;
+  border-radius: 10px;
+  margin-left: 90px;
+  margin-top: -10px;
+}
+.box4 {
+  height: 7px;
+  width: 7px;
+  border: 1.5px solid #333132;
+  position: absolute;
+  border-radius: 10px;
+  margin-left: 80px;
+  margin-top: -10px;
+}
+.li5 .Home {
+  position: absolute;
+  left: 40px;
+  right: 12.5%;
+  top: 00px;
+}
+li.li5:hover, header .li4:hover, header .li3:hover{
+  text-decoration: overline;
+  color: purple;
+}
+.homebox {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border: 1.5px solid #535e79;
+  border-radius: 10px;
+  background: #535e79;
+  margin-left: 10px;
+}
+header .li2 {
+  list-style-type: none;
+  color: #333132;
+  position: absolute;
+  width: 80px;
+  height: 21px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  left: 553px;
+  top: 40px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+header .li3 {
+  position: absolute;
+  width: 80px;
+  height: 21px;
+  font-family: "IRANSansX";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333132;
+  left: 689px;
+  top: 40px;
+  list-style: none;
+  cursor: pointer;
+}
+header .li4 {
+  position: absolute;
+  width: 83px;
+  height: 21px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333132;
+  left: 822px;
+  top: 40px;
+  list-style-type: none;
+  cursor: pointer;
+}
+header .li5 {
+  position: absolute;
+  width: 80px;
+  height: 21px;
+  left: 981px;
+  top: 40px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: #535e79;
+  list-style-type: none;
+  cursor: pointer;
+}
+.headerbox {
+  width: 1140px;
+  height: 433px;
+  background: rgba(220, 8, 54, 0.2);
+  border-radius: 37px;
+  position: relative;
+  margin: 53px 150px;
+}
+.polygen1 {
+  position: absolute;
+  left: 172px;
+  top: 173px;
+}
+.polygon2 {
+  left: 25px;
+  top: 50px;
+  position: absolute;
+}
+.man {
+  position: absolute;
+  left: 30px;
+  top: -54px;
+  max-width: 300px;
+  height: auto;
+}
+.description {
+  position: absolute;
+  width: 471px;
+  height: 74px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 128%;
+  text-align: right;
+  color: #333132;
+  margin: 188px 76px 171px 593px;
+}
+.whitebox {
+  margin: 294px 77px 35px 573px;
+  position: absolute;
+  width: 490px;
+  height: 104px;
+  background: #fdfdfd;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+.border1 {
+  border: 1px solid rgba(220, 8, 54, 0.5);
+  transform: rotate(90deg);
+  width: 57px;
+  height: 0px;
+  margin-top: 49px;
+  margin-left: 135px;
+  position: absolute;
+}
+.border2 {
+  position: absolute;
+  width: 57px;
+  height: 0px;
+  border: 1px solid rgba(220, 8, 54, 0.5);
+  transform: rotate(90deg);
+  margin: 49px 300px;
+}
+.text1 {
+  position: absolute;
+  width: 100px;
+  height: 26px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 201%;
+  text-align: right;
+  color: var(--clrG);
+  margin: 20px 368px 58px 31px;
+}
+.text2 {
+  position: absolute;
+  width: 80px;
+  height: 26px;
+  font-family: "IRANSansX";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 201%;
+  text-align: right;
+  color: var(--clrR);
+  margin: 57px 310px 21px 35px;
+}
+.text3 {
+  position: absolute;
+  width: 90px;
+  height: 26px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 201%;
+  text-align: right;
+  color: var(--clrG);
+  margin: 20px 230px 58px 190px;
+}
+.text4 {
+  position: absolute;
+  width: 80px;
+  height: 26px;
+  font-size: 13px;
+  font-weight: 500;
+  text-align: right;
+  line-height: 201%;
+  color: var(--clrR);
+  margin: 57px 201px 21px 193px;
+}
+.text5 {
+  position: absolute;
+  width: 100px;
+  height: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 201%;
+  text-align: right;
+  font-size: 13px;
+  color: var(--clrG);
+  margin: 20px 20px 58px 356px;
+}
+.text6 {
+  position: absolute;
+  width: 50px;
+  height: 26px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 201%;
+  text-align: right;
+  color: var(--clrR);
+  margin: 57px 50px 21px 381px;
+}
+.title {
+  position: absolute;
+  width: 600px;
+  height: 120px;
+  margin: 36px 76px 277px 470px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 60.3px;
+  color: #333132;
+  text-align: right;
+}
+.gray {
+  display: inline;
+  color: var(--clrG);
+}
