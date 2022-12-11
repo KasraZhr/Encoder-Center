@@ -32,7 +32,7 @@ body {
   transition: all ease 0.7s;
 }
 .TeamName:hover {
-text-shadow: 5px 5px 15px black;
+  text-shadow: 5px 5px 15px black;
 }
 .btn1-call {
   width: 134px;
@@ -54,18 +54,6 @@ text-shadow: 5px 5px 15px black;
   color: #fdfdfd;
   margin: 10px 9px 11px 40px;
   font-weight: bold;
-}
-.call-vector {
-  height: 18px;
-  width: 18px;
-  position: absolute;
-  margin: 12px 104px 12px 12px;
-}
-.call-vector2 {
-  height: 8px;
-  width: 8px;
-  margin: 9px 104px 22px 22px;
-  position: absolute;
 }
 header .li1 {
   position: absolute;
@@ -166,9 +154,11 @@ header .AboutUs2 {
   right: 12.5%;
   top: 00px;
 }
-li.li5:hover, header .li4:hover, header .li3:hover{
+li.li5:hover,
+header .li4:hover,
+header .li3:hover {
   text-decoration: overline;
-  color: purple;
+  color: purple !important;
 }
 .homebox {
   position: absolute;
@@ -238,6 +228,7 @@ header .li5 {
   list-style-type: none;
   cursor: pointer;
 }
+/* *****Header***** */
 .headerbox {
   width: 1140px;
   height: 433px;
@@ -389,4 +380,28 @@ header .li5 {
 .gray {
   display: inline;
   color: var(--clrG);
+}
+/* Bootstrap added - (Navbar) & (Header)*/
+#Navbar {
+  text-decoration: none !important;
+}
+#call {
+  cursor: pointer;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  left: 500px;
+}
+#call-btn{
+  position: relative;
+  left: 150px
+}
+#call:hover {
+  text-decoration: underline;
+  color: black;
+}
+#gray-part-of-header-title:hover{
+  text-decoration: underline;
+  font-weight: 600;
+  cursor: pointer;
 }
