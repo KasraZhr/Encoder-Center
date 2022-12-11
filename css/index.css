@@ -392,16 +392,63 @@ header .li5 {
   text-decoration: none;
   left: 500px;
 }
-#call-btn{
+#call-btn {
   position: relative;
-  left: 150px
+  left: 150px;
 }
 #call:hover {
   text-decoration: underline;
   color: black;
 }
-#gray-part-of-header-title:hover{
+#gray-part-of-header-title:hover {
   text-decoration: underline;
   font-weight: 600;
   cursor: pointer;
+}
+/* Achievement part */
+#GradientSVG2 {
+  position: absolute;
+  top: 1240px;
+  margin-left: 561px;
+}
+#Box-Achievement1 {
+  background: linear-gradient(180deg, #535e79 0%, #202226 100%);
+  width: 290px;
+  height: 400px;
+  box-sizing: border-box;
+  padding-top: 110px;
+  margin-left: 130px;
+  margin-top: -550px;
+}
+#Achievement-text-box {
+  padding-bottom: 50px;
+  padding-top: 130px;
+}
+#Box-Achievement2 {
+  width: 195px;
+  height: 195px;
+  background: linear-gradient(180deg, #dc0836 0%, #4f0011 100%);
+  margin-top: -400px;
+  margin-left: 437px;
+}
+#Box-Achievement3{
+  width: 195px;
+  height: 195px;
+  background: linear-gradient(180deg, #dc0836 0%, #4f0011 100%);
+  margin-left: 437px; margin-top: 10px;
+}
+#AboutUS-btn{
+  background: #535E79;
+border-radius: 6px;
+Width: 134px;
+height: 42px;
+color: white;
+font-weight: 500; 
+font-size: 16px;
+margin-left:  70px;
+margin-top: -80px;
+}
+#Achievement-Title{
+  margin-left: 350px;
+  margin-top: -420px;
 }
